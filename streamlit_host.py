@@ -31,7 +31,7 @@ with header_container:
 
   
 
-  model = tf.keras.models.load_model("mdl_wts.hdf5")
+  model = tf.keras.models.load_model("saved_model/mdl_wts.hdf5")
   ### load file
   uploaded_file = st.file_uploader("Choose a image file", type="jpg")
 
